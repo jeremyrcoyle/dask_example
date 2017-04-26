@@ -1,0 +1,1125 @@
+{
+	"auto_complete":
+	{
+		"selected_items":
+		[
+			[
+				"pane",
+				"panelytics_tests\tmodule"
+			],
+			[
+				"resu",
+				"result_panelytics\tstatement"
+			],
+			[
+				"validate_wa",
+				"validate_waveform_shape\tfunction"
+			],
+			[
+				"si",
+				"simple_reading\tinstance"
+			],
+			[
+				"ri",
+				"richard_matrix_from_meta\tfunction"
+			],
+			[
+				"conducto",
+				"conductor_waves\tstatement"
+			],
+			[
+				"sens",
+				"sens_dict"
+			],
+			[
+				"sensitiv",
+				"sensitivity"
+			],
+			[
+				"valid",
+				"validate_reading_structure\timport"
+			],
+			[
+				"p",
+				"payload\tparam"
+			],
+			[
+				"conduct",
+				"conductor_waves\tstatement"
+			],
+			[
+				"bad",
+				"bad_payload\tstatement"
+			],
+			[
+				"dump",
+				"dump_to_s3"
+			],
+			[
+				"sm",
+				"small_asymmetric_wave"
+			],
+			[
+				"hb_",
+				"hb_condition"
+			],
+			[
+				"ctrms",
+				"ctrms"
+			],
+			[
+				"meter_dump",
+				"meter_dump_to_dt"
+			],
+			[
+				"files",
+				"file_to_waves"
+			],
+			[
+				"condu",
+				"conductor_id"
+			],
+			[
+				"archived",
+				"archived_files"
+			],
+			[
+				"HARM",
+				"HARM_NUM"
+			],
+			[
+				"FFT_B",
+				"FFT_bin_width"
+			],
+			[
+				"maxr",
+				"maxrms"
+			],
+			[
+				"invalid",
+				"invalidwaves"
+			],
+			[
+				"real",
+				"real_prev_wave\tstatement"
+			],
+			[
+				"real_",
+				"real_this_wave\tstatement"
+			],
+			[
+				"on",
+				"one_vv_wave\tstatement"
+			],
+			[
+				"val",
+				"validate_data\tmodule"
+			],
+			[
+				"previous",
+				"previous_waveforms\tparam"
+			],
+			[
+				"previou",
+				"previous_waveform\tparam"
+			],
+			[
+				"W",
+				"WAVE_LEN\tstatement"
+			],
+			[
+				"valida",
+				"validate_adc_range\tfunction"
+			],
+			[
+				"max",
+				"MAX_ADC\tstatement"
+			],
+			[
+				"vol",
+				"voltsin"
+			],
+			[
+				"V",
+				"VALID_PHASE_SETS\tstatement"
+			],
+			[
+				"get",
+				"get_panel_phase_set\tfunction"
+			],
+			[
+				"PHA",
+				"PHASE_WAVES\tstatement"
+			],
+			[
+				"get_lo",
+				"get_local_archive_files"
+			],
+			[
+				"com",
+				"complete_cycle_rms\tfunction"
+			],
+			[
+				"comp",
+				"complete_cycle_mean\tfunction"
+			],
+			[
+				"comple_c",
+				"complete_cycle_rms\tfunction"
+			],
+			[
+				"squ",
+				"square_vector\tfunction"
+			],
+			[
+				"wave",
+				"wave_interp\tstatement"
+			],
+			[
+				"INDE",
+				"INDEX_AFTER\tstatement"
+			],
+			[
+				"float",
+				"float_equal\tfunction"
+			],
+			[
+				"count2",
+				"count2volts\tfunction"
+			],
+			[
+				"one_",
+				"one_vv_wave"
+			],
+			[
+				"PHAE",
+				"PHASE_WAVES"
+			],
+			[
+				"P",
+				"PHASE_WAVES\tstatement"
+			],
+			[
+				"w",
+				"whichphase\tfunction"
+			],
+			[
+				"corr",
+				"corrected_waveform\tstatement"
+			],
+			[
+				"comple",
+				"complete_index\tstatement"
+			],
+			[
+				"D",
+				"DEVICE_ADDRESS\tstatement"
+			],
+			[
+				"phas",
+				"phasewaves〔variable〕"
+			],
+			[
+				"volt",
+				"voltreference"
+			],
+			[
+				"ccf",
+				"ccfalign"
+			],
+			[
+				"as.POIS",
+				"as.POSIXct"
+			],
+			[
+				"mean",
+				"meanvalue"
+			],
+			[
+				"ali",
+				"alignedvolts2"
+			],
+			[
+				"aligned",
+				"alignedvolts"
+			],
+			[
+				"tie",
+				"timestamp"
+			],
+			[
+				"sensor",
+				"sensor_id"
+			],
+			[
+				"sen",
+				"sensor_ids"
+			],
+			[
+				"time",
+				"timestamp"
+			],
+			[
+				"is",
+				"isclipped"
+			],
+			[
+				"chann",
+				"channel"
+			],
+			[
+				"payl",
+				"payloads"
+			],
+			[
+				"curre",
+				"current_channels"
+			],
+			[
+				"senso",
+				"sensor_id"
+			],
+			[
+				"all",
+				"all_readings"
+			],
+			[
+				"live",
+				"live_readings"
+			],
+			[
+				"archive",
+				"archived_readings"
+			],
+			[
+				"arch",
+				"archived_readings"
+			],
+			[
+				"local",
+				"local_archive"
+			],
+			[
+				"tidy",
+				"tidy_source"
+			],
+			[
+				"get_",
+				"get_latest_reads"
+			],
+			[
+				"mat",
+				"matplotlib\tmodule"
+			],
+			[
+				"waveform_clipped",
+				"waveform_clipped\tstatement"
+			],
+			[
+				"alig",
+				"alignment\tparam"
+			],
+			[
+				"refern",
+				"reference_reading\tparam"
+			],
+			[
+				"interpo",
+				"interpolate_offset"
+			],
+			[
+				"refer",
+				"reference_wave\tparam"
+			],
+			[
+				"raw_",
+				"raw_reading"
+			],
+			[
+				"center",
+				"center_mat"
+			],
+			[
+				"snr",
+				"snr"
+			],
+			[
+				"cente",
+				"center_mat"
+			],
+			[
+				"la",
+				"labeller"
+			],
+			[
+				"from",
+				"from_stormpath"
+			],
+			[
+				"owner",
+				"owner"
+			],
+			[
+				"role",
+				"role"
+			],
+			[
+				"filter",
+				"filter_by"
+			],
+			[
+				"user",
+				"user_labels"
+			]
+		]
+	},
+	"buffers":
+	[
+		{
+			"file": "dask_example.py",
+			"settings":
+			{
+				"buffer_size": 199,
+				"encoding": "UTF-8",
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"contents": "Package Control Messages\n========================\n\nVirtualenv\n----------\n\n  Sublime Text - Virtualenv\n  =========================\n  \n  Manage your virtualenvs directly from Sublime Text 3. (BETA)\n  \n  ## Features\n  \n  - Reusable build system. Execute code with a virtualenv without\n  editing your paths manually.\n  - Virtualenv search. Finds virtualenvs in the open folders or anywhere in your system.\n  - Activation/Deactivation. Select or disable the current virtualenv easily.\n  - Create and delete virtualenvs. With target python selection.\n  \n  \n  ## Support\n  \n  Only Sublime Text 3. Tested in Linux and Windows but it should work in OS X as well.\n  \n  \n  ## Usage\n  \n  - Set your build system to `Python + Virtualenv`. (Tools -> Build System)\n  - Search \"Virtualenv\" in the command palette.\n  \n  \n  For further details and instructions see the README:\n  Preferences -> Package Settings -> Virtualenv -> README\n  \n  -----------------------------------------------------------------------------------------\n  \n  Hello! Thank you for testing this package.\n  \n  IMPORTANT:\n  \n  Before you start using the commands verify that the default settings are suitable for\n  your system. Check them in Preferences -> Package Settings -> Virtualenv.\n  *But* do not modify the default settings as you will lose all the changes if the package\n  is updated. You should override the necessary settings in Virtualenv -> User instead.\n  \n  Please report any issues or suggestions in the issue tracker:\n  https://github.com/AdrianLC/sublime-text-virtualenv/issues\n",
+			"settings":
+			{
+				"buffer_size": 1550,
+				"line_ending": "Unix",
+				"name": "Package Control Messages",
+				"read_only": true,
+				"scratch": true
+			}
+		},
+		{
+			"contents": "Python 2.7.10 (default, Jul 30 2016, 19:40:32) \n[GCC 4.2.1 Compatible Apple LLVM 8.0.0 (clang-800.0.34)] on darwin\nType \"help\", \"copyright\", \"credits\" or \"license\" for more information.\n>>> Traceback (most recent call last):\n  File \"<stdin>\", line 1, in <module>\n  File \"<string>\", line 3, in <module>\nImportError: No module named dask\n>>> ",
+			"settings":
+			{
+				"buffer_size": 340,
+				"line_ending": "Unix",
+				"name": "*REPL* [python]",
+				"scratch": true
+			}
+		}
+	],
+	"build_system": "",
+	"build_system_choices":
+	[
+	],
+	"build_varint": "",
+	"command_palette":
+	{
+		"height": 264.0,
+		"last_filter": "in",
+		"selected_items":
+		[
+			[
+				"in",
+				"Package Control: Install Package"
+			],
+			[
+				"subl",
+				"SublimeREPL: Python"
+			],
+			[
+				"pa",
+				"Package Control: Install Package"
+			],
+			[
+				"markd",
+				"Markdown Preview: Preview in Browser"
+			],
+			[
+				"inst",
+				"Package Control: Install Package"
+			],
+			[
+				"color",
+				"Colorsublime: Install Theme"
+			],
+			[
+				"packa",
+				"Package Control: Upgrade Package"
+			],
+			[
+				"build",
+				"Build: Custom Quick Build"
+			],
+			[
+				"LaTeXing: clean",
+				"LaTeXing: Clean Temporary Output Dictionary"
+			],
+			[
+				"latexing",
+				"LaTeXing: Import Citation(s)"
+			],
+			[
+				"spell",
+				"Google Spell Check"
+			],
+			[
+				"pac",
+				"Package Control: Install Package"
+			],
+			[
+				"package",
+				"Preferences: Browse Packages"
+			],
+			[
+				"Build: ",
+				"Build: Primary Quick Build"
+			],
+			[
+				"check",
+				"LaTeXing: Check System"
+			],
+			[
+				"rep",
+				"SublimeREPL: Python"
+			],
+			[
+				"",
+				"Anaconda: Set Python interpreter"
+			],
+			[
+				"repl py",
+				"SublimeREPL: Python"
+			],
+			[
+				"repl R",
+				"SublimeREPL: R"
+			],
+			[
+				"repl",
+				"SublimeREPL: Python"
+			],
+			[
+				"ena",
+				"Package Control: Enable Package"
+			],
+			[
+				"enable",
+				"Package Control: Enable Package"
+			],
+			[
+				"Package Control: di",
+				"Package Control: Disable Package"
+			],
+			[
+				"reply p",
+				"SublimeREPL: Python"
+			],
+			[
+				"anaconda",
+				"Anaconda: Goto object definition"
+			],
+			[
+				"ana",
+				"Anaconda: Set Python interpreter"
+			],
+			[
+				"insta",
+				"Package Control: Install Package"
+			],
+			[
+				"Package Control: ",
+				"Package Control: List Packages"
+			],
+			[
+				"i",
+				"Package Control: Install Package"
+			]
+		],
+		"width": 453.0
+	},
+	"console":
+	{
+		"height": 126.0,
+		"history":
+		[
+			"import urllib.request,os,hashlib; h = 'df21e130d211cfc94d9b0905775a7c0f' + '1e3d39e33b79698005270310898eea76'; pf = 'Package Control.sublime-package'; ipp = sublime.installed_packages_path(); urllib.request.install_opener( urllib.request.build_opener( urllib.request.ProxyHandler()) ); by = urllib.request.urlopen( 'http://packagecontrol.io/' + pf.replace(' ', '%20')).read(); dh = hashlib.sha256(by).hexdigest(); print('Error validating download (got %s instead of %s), please try manual install' % (dh, h)) if dh != h else open(os.path.join( ipp, pf), 'wb' ).write(by)",
+			"import urllib.request,os,hashlib; h = 'eb2297e1a458f27d836c04bb0cbaf282' + 'd0e7a3098092775ccb37ca9d6b2e4b7d'; pf = 'Package Control.sublime-package'; ipp = sublime.installed_packages_path(); urllib.request.install_opener( urllib.request.build_opener( urllib.request.ProxyHandler()) ); by = urllib.request.urlopen( 'http://packagecontrol.io/' + pf.replace(' ', '%20')).read(); dh = hashlib.sha256(by).hexdigest(); print('Error validating download (got %s instead of %s), please try manual install' % (dh, h)) if dh != h else open(os.path.join( ipp, pf), 'wb' ).write(by)"
+		]
+	},
+	"distraction_free":
+	{
+		"menu_visible": true,
+		"show_minimap": false,
+		"show_open_files": false,
+		"show_tabs": false,
+		"side_bar_visible": false,
+		"status_bar_visible": false
+	},
+	"expanded_folders":
+	[
+		"/Users/jrcoyle/Dropbox/sustainabilist/ICCT/dask_example"
+	],
+	"file_history":
+	[
+		"/Users/jrcoyle/Dropbox/sweetsense/testing/fault detection.txt",
+		"/Users/jrcoyle/Dropbox/thesis/dissertation text/thesis.tex",
+		"/Users/jrcoyle/Dropbox/thesis/nested_cv/nesting_consistent_notation.tex",
+		"/Users/jrcoyle/Dropbox/thesis/nested_cv/proof_appendix.tex",
+		"/Users/jrcoyle/Dropbox/thesis/dissertation text/graphs/cvdependency.ai",
+		"/Users/jrcoyle/Dropbox/thesis/dissertation text/bootstrap_appendix.tex",
+		"/Users/jrcoyle/Dropbox/thesis/dissertation text/bootstrap.tex",
+		"/Users/jrcoyle/Dropbox/thesis/simulations/ksmoothsim/old/slides/slides.tex",
+		"/Users/jrcoyle/Dropbox/thesis/dissertation text/introduction.tex",
+		"/Users/jrcoyle/Dropbox/thesis/dissertation text/opttx_package.tex",
+		"/Users/jrcoyle/Dropbox/thesis/dissertation text/references.bib",
+		"/Users/jrcoyle/Dropbox/thesis/dissertation text/nesting_appendix.tex",
+		"/Users/jrcoyle/Dropbox/thesis/dissertation text/categorical.tex",
+		"/Users/jrcoyle/Dropbox/thesis/bootstrap/targeted bootstrap ms/targetedbootstrap (Jeremy Coyle's conflicted copy 2014-12-09).tex",
+		"/Users/jrcoyle/Dropbox/thesis/dissertation text/sim_specs.tex",
+		"/Users/jrcoyle/Dropbox/thesis/dissertation text/nesting.tex",
+		"/Users/jrcoyle/Dropbox/thesis/dissertation text/bootstrap_outline.txt",
+		"/Users/jrcoyle/Dropbox/thesis/dissertation text/vim.tex",
+		"/Users/jrcoyle/Dropbox/thesis/scratch/loss based estimation.tex",
+		"/Users/jrcoyle/Library/Application Support/Sublime Text 3/Packages/User/LaTeXing.sublime-settings",
+		"/Users/jrcoyle/Dropbox/thesis/dissertation text/abstract.tex",
+		"/Users/jrcoyle/Dropbox/thesis/dissertation text/additional_software.tex",
+		"/Users/jrcoyle/Dropbox/thesis/dissertation text/thesis.ptex",
+		"/Users/jrcoyle/Dropbox/thesis/dissertation text/thesis.synctex.gz",
+		"/Users/jrcoyle/Dropbox/thesis/dissertation text/thesis.log",
+		"/Users/jrcoyle/Dropbox/thesis/dissertation text/thesis.bcf",
+		"/Users/jrcoyle/Dropbox/thesis/sample thesis/chap1.tex",
+		"/Users/jrcoyle/Dropbox/thesis/dissertation text/thesis.aux",
+		"/Users/jrcoyle/Dropbox/thesis/sample thesis/thesis.tex",
+		"/Users/jrcoyle/Library/Application Support/Sublime Text 3/Packages/User/Preferences.sublime-settings",
+		"/Users/jrcoyle/Library/Application Support/Sublime Text 3/Packages/Default/Preferences.sublime-settings",
+		"/Users/jrcoyle/Library/Application Support/Sublime Text 3/Packages/LaTeXing/LaTeXing.sublime-settings",
+		"/Users/jrcoyle/Google Drive/panelytics/panelytics/process_panel.py",
+		"/Users/jrcoyle/Google Drive/faraday/scripts/spec_test.sh",
+		"/Users/jrcoyle/Google Drive/faraday/services/update_metrics.py",
+		"/Users/jrcoyle/Google Drive/faraday/tasks/payload_ingress/payload_ingress.py",
+		"/Users/jrcoyle/Google Drive/faraday/test/helpers.py",
+		"/Users/jrcoyle/Google Drive/faraday/test/panelytics_tests/__init__.py",
+		"/Users/jrcoyle/Google Drive/faraday/fixtures/base.py",
+		"/Users/jrcoyle/Google Drive/faraday/test/payload_ingress_test.py",
+		"/Users/jrcoyle/Google Drive/faraday/test/compare_panelytics_test.py",
+		"/Users/jrcoyle/Google Drive/faraday/fixtures/helpers.py",
+		"/Users/jrcoyle/Google Drive/faraday/test/panelytics_tests/util.py",
+		"/Users/jrcoyle/Google Drive/faraday/test/compare_analytics_test.py",
+		"/Users/jrcoyle/Google Drive/panelytics/example_preheat.py",
+		"/Users/jrcoyle/Google Drive/panelytics/panelytics/thaw_storage.py",
+		"/Users/jrcoyle/Google Drive/panelytics/test/util.py",
+		"/Users/jrcoyle/Google Drive/panelytics/test/validate_data_test.py",
+		"/Users/jrcoyle/Google Drive/panelytics/example.py",
+		"/Users/jrcoyle/Google Drive/panelytics/panelytics/validate_data.py",
+		"/Users/jrcoyle/Google Drive/panelytics/panelytics/constants.py",
+		"/Users/jrcoyle/Google Drive/panelytics/panelytics/preprocess_reading.py",
+		"/Users/jrcoyle/Google Drive/panelytics/panelytics/crosstalk.py",
+		"/Users/jrcoyle/Google Drive/panelytics/example_ctpatch.py",
+		"/Users/jrcoyle/Google Drive/panelytics/scripts/test.sh",
+		"/Users/jrcoyle/Google Drive/panelytics/test/crosstalk_test.py",
+		"/Users/jrcoyle/Google Drive/panelytics/test/conductormetrics_test.py",
+		"/Volumes/jrcoyle/Google Drive/Analytics + Testing/validation/ingress_errors.json",
+		"/Users/jrcoyle/Google Drive/panelytics/panelytics/__init__.py",
+		"/Users/jrcoyle/Google Drive/panelytics/exdata/metrics_ctpatch.csv",
+		"/Users/jrcoyle/Google Drive/panelytics/exdata/reading1_ctpatch.json",
+		"/Users/jrcoyle/Google Drive/panelytics/exdata/reading2_ctpatch.json",
+		"/Users/jrcoyle/Google Drive/panelytics/panelytics/volt2sin.py",
+		"/Users/jrcoyle/Google Drive/panelytics/test/volt2sin_test.py",
+		"/Users/jrcoyle/Google Drive/panelytics/lib/parse_date.py",
+		"/Users/jrcoyle/Google Drive/panelytics/lib/__init__.py",
+		"/Users/jrcoyle/Google Drive/panelytics/lib/timestamp.py",
+		"/Users/jrcoyle/Google Drive/panelytics/test/rms_test.py",
+		"/Users/jrcoyle/Google Drive/panelytics/exdata/metrics.csv",
+		"/var/folders/sm/48z0p30j2dz8fvkymb5pppch0000gn/T/sublime-sftp-browse-1450476011/tesla/home/jrcoyle/pe-servicechannel-demo/.env",
+		"/var/folders/sm/48z0p30j2dz8fvkymb5pppch0000gn/T/sublime-sftp-browse-1450478002/tesla/home/jrcoyle/pe-servicechannel-demo/compression.py",
+		"/var/folders/sm/48z0p30j2dz8fvkymb5pppch0000gn/T/sublime-sftp-browse-1450474877/tesla/home/jrcoyle/pe-servicechannel-demo/aws.py",
+		"/var/folders/sm/48z0p30j2dz8fvkymb5pppch0000gn/T/sublime-sftp-browse-1450475446/tesla/home/jrcoyle/pe-servicechannel-demo/app.py",
+		"/Users/jrcoyle/Library/Application Support/Sublime Text 3/Packages/User/sftp_servers/tesla",
+		"/Users/jrcoyle/Google Drive/Raday/test_ts.png",
+		"/Users/jrcoyle/Google Drive/Raday/inst/rebuild.R",
+		"/Users/jrcoyle/Google Drive/Raday/R/validate_data.R",
+		"/Users/jrcoyle/Google Drive/Raday/R/metadata.R",
+		"/Users/jrcoyle/Google Drive/Raday/R/globals.R",
+		"/Users/jrcoyle/Google Drive/Raday/R/crosstalk.R",
+		"/Users/jrcoyle/Google Drive/Raday/R/generate_sinewave.R",
+		"/Users/jrcoyle/Google Drive/Raday/R/volt2sin.R",
+		"/Users/jrcoyle/Google Drive/Raday/R/changepoint.R",
+		"/Users/jrcoyle/Google Drive/faraday/analytics/validate_data.py",
+		"/Users/jrcoyle/Google Drive/faraday/analytics/analytics.py",
+		"/Users/jrcoyle/Google Drive/faraday/analytics/constants.py",
+		"/Users/jrcoyle/Google Drive/faraday/analytics/__init__.py",
+		"/Users/jrcoyle/Google Drive/faraday/analytics/volt2sin.py",
+		"/Users/jrcoyle/Google Drive/faraday/test/analytics_tests/conductormetrics_test.py",
+		"/Users/jrcoyle/Google Drive/faraday/test_analytics.py",
+		"/Users/jrcoyle/Google Drive/faraday/test/analytics_tests/volt2sin_test.py",
+		"/Users/jrcoyle/Google Drive/Raday/R/rms.R",
+		"/Users/jrcoyle/Google Drive/Raday/R/counts2volts.R",
+		"/Users/jrcoyle/Google Drive/Raday/R/helpers.R",
+		"/Users/jrcoyle/Library/Application Support/Sublime Text 3/Packages/User/Default (OSX).sublime-keymap",
+		"/Users/jrcoyle/Library/Application Support/Sublime Text 3/Packages/User/SublimeREPL.sublime-settings",
+		"/Users/jrcoyle/Google Drive/Raday/DESCRIPTION",
+		"/Users/jrcoyle/Downloads/gilded_cts.csv",
+		"/Users/jrcoyle/Google Drive/faraday/test/analytics_tests/rms_test.py",
+		"/Users/jrcoyle/Google Drive/faraday/models/rollup_metrics.py",
+		"/Users/jrcoyle/Google Drive/faraday/test/analytics_tests/__init__.py",
+		"/Users/jrcoyle/Google Drive/faraday/test/analytics_tests/util.py",
+		"/Users/jrcoyle/Google Drive/faraday/test/analytics_tests/count2volt_test.py",
+		"/Users/jrcoyle/Google Drive/faraday/test/analytics_tests/crosstalk_test.py",
+		"/Users/jrcoyle/Google Drive/faraday/analytics/counts2volts.py",
+		"/Users/jrcoyle/Google Drive/faraday/analytics/crosstalk.py",
+		"/Users/jrcoyle/Google Drive/faraday/analytics/rms.py",
+		"/Users/jrcoyle/Google Drive/faraday/analytics/trip_detect.py",
+		"/Users/jrcoyle/Google Drive/faraday/scripts/test_analytics.sh",
+		"/Users/jrcoyle/Google Drive/faraday/models/minutely_metrics.py",
+		"/Users/jrcoyle/Google Drive/faraday/test/analytics_test.py",
+		"/Users/jrcoyle/Library/Application Support/Sublime Text 3/Packages/SublimeLinter/SublimeLinter.sublime-settings",
+		"/Users/jrcoyle/Library/Application Support/Sublime Text 3/Packages/User/SublimeLinter.sublime-settings",
+		"/Users/jrcoyle/Library/Application Support/Sublime Text 3/Packages/User/AutoPep8.sublime-settings",
+		"/Users/jrcoyle/Library/Application Support/Sublime Text 3/Packages/AutoPEP8/AutoPep8.sublime-settings",
+		"/Users/jrcoyle/Google Drive/faraday/analytics/tmp/test_analytics.py",
+		"/Users/jrcoyle/Google Drive/faraday/lib/rms.py",
+		"/var/folders/sm/48z0p30j2dz8fvkymb5pppch0000gn/T/sublime-sftp-browse-1444333610/daq2/home/pi/patch-test-scripts_jc/guilded2.py",
+		"/Users/jrcoyle/wattr/R/globals.R",
+		"/Users/jrcoyle/wattr/R/fft.R",
+		"/Users/jrcoyle/wattr/inst/rebuild.R",
+		"/Users/jrcoyle/wattr/inst/test.R",
+		"/Users/jrcoyle/wattr/R/alignment.R",
+		"/Users/jrcoyle/wattr/NAMESPACE",
+		"/Users/jrcoyle/wattr/DESCRIPTION",
+		"/Users/jrcoyle/wattr/R/api.R",
+		"/Users/jrcoyle/wattr/R/helpers.R",
+		"/Users/jrcoyle/tvdtest.csv"
+	],
+	"find":
+	{
+		"height": 25.0
+	},
+	"find_in_files":
+	{
+		"height": 95.0,
+		"where_history":
+		[
+			"/Users/jrcoyle/Google Drive/panelytics",
+			"/Users/jrcoyle/Google Drive/faraday",
+			"",
+			"/Users/jrcoyle/SUMSarizer",
+			""
+		]
+	},
+	"find_state":
+	{
+		"case_sensitive": false,
+		"find_history":
+		[
+			"readData",
+			"**",
+			"fn:SpSSL",
+			"2011",
+			"appendix",
+			"2011",
+			"vanderVaart&Wellner2011",
+			"citet",
+			"vanderVaart&Wellner2011",
+			"Zheng&vanderLaan11",
+			"vanderVaartWellner1996",
+			"2011",
+			"vaart",
+			"1996",
+			"****",
+			"exp",
+			"argmin",
+			"Super-Learner",
+			"label",
+			"interest",
+			"risk dif",
+			"otherwise",
+			"probability",
+			"targeted bo",
+			"include",
+			"figure",
+			"prob",
+			"loss based",
+			"\\section{model based",
+			"\\subsection{model based",
+			"model based",
+			"\\section",
+			"\\subsection",
+			"consistency",
+			"\\bf",
+			"argmin",
+			"work",
+			"bib",
+			"pivot",
+			"panely",
+			"59903",
+			"simple_reading.copy()",
+			"bad_payload",
+			"\"\"",
+			"scale_factor",
+			"validate_data",
+			"validate",
+			"emiss",
+			"testtimes",
+			"for ",
+			"if ",
+			":",
+			"raise",
+			"def ",
+			"(waveform):",
+			"(waveform)",
+			"app_context",
+			"app",
+			"conductor_metrics",
+			"conductor_state",
+			"conductor",
+			"]",
+			"conductor_metrics",
+			"len",
+			"watt",
+			"admin",
+			"calibration",
+			"lates",
+			".last",
+			".lsat",
+			"last",
+			"push_trip_event",
+			"panel_state",
+			"conductor_state",
+			"conductor_state['previous_payload']",
+			"recompute",
+			"update_cum_average",
+			"index_after",
+			"index_before",
+			"complete_index",
+			"rms",
+			"compute_metrics",
+			"metrics",
+			"INDEx",
+			"\nsimple_rms=np.std\n\n    \nprint simple_rms(waveform[:-1])\n\n",
+			"  ",
+			"compute_metrics",
+			"print",
+			"pdb",
+			"compute_metrics",
+			"conductor_metrics",
+			"analytics.conductor_metrics",
+			"!={})",
+			":",
+			"rms",
+			"last_positive_bound",
+			"index_p",
+			"segment_end",
+			"current_index_p",
+			"index",
+			"index_n",
+			"index_0",
+			"breaindex",
+			"  ",
+			"indexappa",
+			"k",
+			"maoutput_series",
+			"output_seriesrange",
+			"x",
+			"y",
+			"++",
+			"$",
+			"rms",
+			"reading",
+			"best_subset",
+			"64",
+			"\t",
+			"class",
+			"rms",
+			"view",
+			"\"",
+			"input",
+			"num",
+			"test",
+			"log",
+			"=",
+			"export",
+			"Studies"
+		],
+		"highlight": true,
+		"in_selection": false,
+		"preserve_case": false,
+		"regex": false,
+		"replace_history":
+		[
+			"bad_reading['payload']",
+			"tests",
+			"meter_metrics",
+			"'",
+			"raw_input",
+			"log"
+		],
+		"reverse": false,
+		"show_context": false,
+		"use_buffer2": false,
+		"whole_word": false,
+		"wrap": true
+	},
+	"groups":
+	[
+		{
+			"selected": 1,
+			"sheets":
+			[
+				{
+					"buffer": 0,
+					"file": "dask_example.py",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 199,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								0,
+								51
+							]
+						],
+						"settings":
+						{
+							"auto_complete_triggers":
+							[
+								{
+									"characters": ".",
+									"selector": "source.python - string - comment - constant.numeric"
+								},
+								{
+									"characters": ".",
+									"selector": "source.python - string - constant.numeric"
+								}
+							],
+							"autopep8_view_autosave": true,
+							"incomplete_sync": null,
+							"syntax": "Packages/Python/Python.sublime-syntax"
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 1,
+					"type": "text"
+				},
+				{
+					"buffer": 1,
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 1550,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								1550,
+								1550
+							]
+						],
+						"settings":
+						{
+							"auto_indent": false,
+							"incomplete_sync": null,
+							"syntax": "Packages/Text/Plain text.tmLanguage",
+							"tab_width": 2,
+							"word_wrap": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 0,
+					"type": "text"
+				}
+			]
+		},
+		{
+			"selected": 0,
+			"sheets":
+			[
+				{
+					"buffer": 2,
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 340,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								340,
+								340
+							]
+						],
+						"settings":
+						{
+							"auto_complete": true,
+							"auto_indent": false,
+							"detect_indentation": false,
+							"gutter": false,
+							"history_arrows": true,
+							"incomplete_sync": null,
+							"indent_subsequent_lines": false,
+							"line_numbers": false,
+							"repl": true,
+							"repl_external_id": "python",
+							"repl_id": "9eaef7d4f7d04d8dadf7df0f3050a335",
+							"repl_restart_args":
+							{
+								"cmd":
+								[
+									"python",
+									"-i",
+									"-u"
+								],
+								"cwd": "$file_path",
+								"encoding": "utf8",
+								"extend_env":
+								{
+									"PYTHONIOENCODING": "utf-8"
+								},
+								"external_id": "python",
+								"syntax": "Packages/Python/Python.tmLanguage",
+								"type": "subprocess"
+							},
+							"repl_sublime2": false,
+							"smart_indent": false,
+							"spell_check": false,
+							"syntax": "Packages/Python/Python.tmLanguage",
+							"translate_tabs_to_spaces": false
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 2,
+					"type": "text"
+				}
+			]
+		}
+	],
+	"incremental_find":
+	{
+		"height": 25.0
+	},
+	"input":
+	{
+		"height": 33.0
+	},
+	"layout":
+	{
+		"cells":
+		[
+			[
+				0,
+				0,
+				1,
+				1
+			],
+			[
+				0,
+				1,
+				1,
+				2
+			]
+		],
+		"cols":
+		[
+			0.0,
+			1.0
+		],
+		"rows":
+		[
+			0.0,
+			0.5,
+			1.0
+		]
+	},
+	"menu_visible": true,
+	"output.autopep8":
+	{
+		"height": 57.0
+	},
+	"output.exec":
+	{
+		"height": 272.0
+	},
+	"output.find_results":
+	{
+		"height": 97.0
+	},
+	"output.sftp":
+	{
+		"height": 102.0
+	},
+	"output.stino_panel":
+	{
+		"height": 0.0
+	},
+	"pinned_build_system": "Packages/Python 3/Python3.sublime-build",
+	"project": "dask_example.sublime-project",
+	"replace":
+	{
+		"height": 46.0
+	},
+	"save_all_on_build": true,
+	"select_file":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+			[
+				"fa",
+				"man/fft_wave.Rd"
+			],
+			[
+				"",
+				"inst/test.R"
+			],
+			[
+				"te",
+				"inst/test.R"
+			]
+		],
+		"width": 0.0
+	},
+	"select_project":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"select_symbol":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"selected_group": 0,
+	"settings":
+	{
+	},
+	"show_minimap": true,
+	"show_open_files": false,
+	"show_tabs": true,
+	"side_bar_visible": true,
+	"side_bar_width": 325.0,
+	"status_bar_visible": true,
+	"template_settings":
+	{
+	}
+}
