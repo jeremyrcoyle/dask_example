@@ -10,7 +10,7 @@ def destroy_cluster():
   scheduler_ids = [cluster.instances[0].uid] 
 
   print("Terminating workers")
-  # driver.destroy(worker_ids)
+  driver.destroy(worker_ids)
   print("Terminating scheduler")
   driver.destroy(scheduler_ids)
   print("Deleting cluster file")
