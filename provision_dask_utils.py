@@ -21,8 +21,8 @@ def main():
   full_cmd=string.join(base_cmd + run_script)
   
   #clone dask_utils on cluster
-  print full_cmd
-  # os.system(full_cmd)
+  print(full_cmd)
+  os.system(full_cmd)
   
   #copy cluster.yaml up
   scp_cmd = ['scp']
@@ -31,7 +31,7 @@ def main():
   scp_cmd = scp_cmd + ['cluster.yaml', username + '@' + ip + ":cluster.yaml"]
   
   full_scp=string.join(scp_cmd)
-  print full_scp
+  print(full_scp)
   os.system(full_scp)
 
 
