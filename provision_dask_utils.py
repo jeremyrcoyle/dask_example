@@ -18,7 +18,7 @@ def main():
   base_cmd = base_cmd + ['-oStrictHostKeyChecking=no']
   base_cmd = base_cmd + ['-p %i' % instance.port]
   run_script = ["'bash -s' < provision_script.sh"]
-  full_cmd=string.join(base_cmd + run_script)
+  full_cmd = str.join(' ',base_cmd + run_script)
   
   #clone dask_utils on cluster
   print(full_cmd)
@@ -30,7 +30,7 @@ def main():
   scp_cmd = scp_cmd + ['-i', keypair]
   scp_cmd = scp_cmd + ['cluster.yaml', username + '@' + ip + ":cluster.yaml"]
   
-  full_scp=string.join(scp_cmd)
+  full_scp=str.join(' ',scp_cmd)
   print(full_scp)
   os.system(full_scp)
 
