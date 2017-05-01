@@ -6,11 +6,15 @@ First, see the [AWS Setup](aws_setup.md) documentation, for tips on how to set u
 
 # Usage
 1. Modify `start_ec2_cluster.sh`, to define the cluster you want to start including ssh key, AMI instance type, and node type and number of nodes.
+
 __todo:__ add support for a configuration file to make this easier
+
 2. Spool up cluster `./start_ec2_cluster.sh`
     * when this script is done running, it will give a url where you can check on cluster behavior
 3. Install `dask_utils` on the cluster: `python provision_dask_utils.py`
+
 __todo:__ do this automatically with salt
+
 4. SSH into cluster `dask-ec2 ssh`
 5. Pull in needed code using *http (not SSH!)* link on bitbucket:
     e.g. `git clone https://jrcoyle@bitbucket.org/ICCTnaya/ais_analysis.git`
