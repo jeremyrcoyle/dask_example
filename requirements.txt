@@ -4,6 +4,7 @@ boto3==1.4.4
 botocore==1.5.45
 cffi==1.10.0
 click==6.7
+configparser==3.5.0
 cryptography==1.8.1
 dask==0.14.1
 dask-ec2==0.5.0
@@ -22,3 +23,4 @@ python-dateutil==2.6.0
 PyYAML==3.12
 s3transfer==0.1.10
 six==1.10.0
+voluptuous==0.10.5

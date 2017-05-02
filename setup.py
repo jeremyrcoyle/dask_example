@@ -3,13 +3,15 @@
 
 import setuptools
 import textwrap
+import versioneer
 
 version = "0.2.5"
 
 if __name__ == "__main__":
   setuptools.setup(
       name="dask_utils",
-      version=version,
+      version=versioneer.get_version(),
+      cmdclass=versioneer.get_cmdclass(),
       description="Utilities for dask on EC2",
       author="Jeremy Coyle",
       url="https://github.com/jeremyrcoyle/dask_utils",
@@ -17,4 +19,11 @@ if __name__ == "__main__":
       Utilities for dask on EC2
       """),
       packages=["dask_utils"],
+      entry_points="""
+        [console_scripts]
+        dask_utils=dask_utils.cli.main:start
+      """,
+      install_requires=["click","dask_ec2"]
   )
+  
+  
