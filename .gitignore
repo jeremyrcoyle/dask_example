@@ -1,4 +1,5 @@
 *.csv
+*.log
 *.pyc
 .env
 !secrets/.env
@@ -11,4 +12,5 @@ secrets_
 node_modules
 .idea
 id_rsa
-cluster.yaml
+*.yaml
+*.cfg
