@@ -14,3 +14,4 @@ node_modules
 id_rsa
 *.yaml
 *.cfg
+example_configs
