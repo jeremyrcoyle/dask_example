@@ -1,6 +1,8 @@
+from __future__ import print_function, division, absolute_import
+
 import click
 import dask_utils
-
+from ..ConfigCluster import ConfigCluster
 
 def start():
   import sys
@@ -9,15 +11,6 @@ def start():
 
   try:
     cli(obj={})
-  except DaskEc2Exception as e:
-    click.echo("ERROR: %s" % e, err=True)
-    sys.exit(1)
-  except ClientError as e:
-    click.echo("Unexpected EC2 error: %s" % e, err=True)
-    sys.exit(1)
-  except KeyboardInterrupt:
-    click.echo("Interrupted by Ctrl-C. One or more actions could be still running in the cluster")
-    sys.exit(1)
   except Exception as e:
     click.echo(traceback.format_exc(), err=True)
     sys.exit(1)
@@ -35,9 +28,33 @@ def cli(ctx):
 
 @cli.command(short_help="Start Cluster")
 @click.pass_context
-@click.option("--config",
-              required=True,
-              type=click.Path(exists=True),
-              help="Cluster definition")
-def up(ctx, config):
-  click.echo("Launching nodes")
+@click.argument('config_file', type=click.Path(exists=True))
+def up(ctx, config_file):
+  None  
+    
+@cli.command(short_help="SSH to Cluster")
+@click.pass_context
+@click.argument('config_file', type=click.Path(exists=True))
+def ssh(ctx, config_file):
+  conf_cluster=ConfigCluster.from_config_file(config_file)
+  conf_cluster.ssh()
+
+@cli.command(short_help="Destroy Cluster")
+@click.pass_context
+@click.destroy('config_file', type=click.Path(exists=True))
+def ssh(ctx, config_file):
+  conf_cluster=ConfigCluster.from_config_file(config_file)
+  conf_cluster.destroy()
+
+@cli.command(short_help="Upload State")
+@click.pass_context
+@click.argument('config_file', type=click.Path(exists=True))
+@click.argument('salt_path', type=click.Path(exists=True))
+def state(ctx, config_file):
+  conf_cluster=ConfigCluster.from_config_file(config_file)
+  conf_cluster.upload_custom_state(salt_path)
+  
+
+
+if __name__ == "__main__":
+  main()
