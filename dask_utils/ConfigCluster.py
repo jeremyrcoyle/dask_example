@@ -27,11 +27,9 @@ class ConfigCluster(object):
     self.config = _config
     self.dask_ec2_cluster = None
     
-    try:
-      self.dask_ec2_cluster=Cluster.from_filepath(self.config['cluster_file'])
-    except:
-      print("Cluster file missing, cluster might not be running")
-  
+    if(os.path.exists(self.config['cluster_file'])):
+      self.dask_ec2_cluster=Cluster.from_filepath()
+    
   @classmethod
   def from_config_file(cls, config_file):
     with open(config_file,"r") as stream:
@@ -59,8 +57,8 @@ class ConfigCluster(object):
     
     return(self)
 
-  def up():   
-    if(os.path.exists(self.cluster_file)):
+  def up(self):   
+    if(os.path.exists(self.config['cluster_file'])):
       raise Exception("Cluster file already exists. Your cluster may already be running. Giving up...")
     
     # for now let's be lazy and just call the dask-ec2 CLI  

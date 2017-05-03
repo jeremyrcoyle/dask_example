@@ -30,8 +30,9 @@ def cli(ctx):
 @click.pass_context
 @click.argument('config_file', type=click.Path(exists=True))
 def up(ctx, config_file):
-  None  
-    
+  conf_cluster=ConfigCluster.from_config_file(config_file)
+  conf_cluster.up()
+
 @cli.command(short_help="SSH to Cluster")
 @click.pass_context
 @click.argument('config_file', type=click.Path(exists=True))
@@ -52,10 +53,7 @@ def destroy(ctx, config_file):
 @click.argument('salt_path', type=click.Path(exists=True))
 def state(ctx, config_file, salt_path):
   conf_cluster=ConfigCluster.from_config_file(config_file)
-  conf_cluster.upload_cluster_yaml()
   conf_cluster.upload_custom_state(salt_path)
-  
-
 
 if __name__ == "__main__":
   main()
