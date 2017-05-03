@@ -14,7 +14,7 @@ schema = Schema({Required('keyname'): All(str,Length(min=1)),
          Required('region-name'): All(str,Length(min=1)), 
          Required('ami'): All(str,Length(min=1)),
          Required('type'): All(str,Length(min=1)),
-         Required('count'): All(int,Range(min=2,max=100)),
+         Required('count'): All(int,Range(min=2,max=10000)),
          Required('iaminstance-name'): All(str,Length(min=1))})
 
 
