@@ -41,8 +41,8 @@ def ssh(ctx, config_file):
 
 @cli.command(short_help="Destroy Cluster")
 @click.pass_context
-@click.destroy('config_file', type=click.Path(exists=True))
-def ssh(ctx, config_file):
+@click.argument('config_file', type=click.Path(exists=True))
+def destroy(ctx, config_file):
   conf_cluster=ConfigCluster.from_config_file(config_file)
   conf_cluster.destroy()
 
@@ -50,8 +50,9 @@ def ssh(ctx, config_file):
 @click.pass_context
 @click.argument('config_file', type=click.Path(exists=True))
 @click.argument('salt_path', type=click.Path(exists=True))
-def state(ctx, config_file):
+def state(ctx, config_file, salt_path):
   conf_cluster=ConfigCluster.from_config_file(config_file)
+  conf_cluster.upload_cluster_yaml()
   conf_cluster.upload_custom_state(salt_path)
   
 

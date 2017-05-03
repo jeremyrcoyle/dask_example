@@ -13,4 +13,4 @@ node_modules
 .idea
 id_rsa
 *.yaml
-example_configs
+example_config

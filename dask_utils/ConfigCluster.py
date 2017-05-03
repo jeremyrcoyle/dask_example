@@ -29,9 +29,8 @@ class ConfigCluster(object):
     
     try:
       self.dask_ec2_cluster=Cluster.from_filepath(self.config['cluster_file'])
-      print("Cluster file missing, cluster might not be running")
     except:
-      None
+      print("Cluster file missing, cluster might not be running")
   
   @classmethod
   def from_config_file(cls, config_file):
@@ -111,7 +110,11 @@ class ConfigCluster(object):
     output = self.dask_ec2_cluster.salt_call("*", "state.sls", ["custom"])
     response = print_state(output)
   
+  def upload_cluster_yaml(self):
+    client = self.dask_ec2_cluster.instances[0].ssh_client
     
+    print("Uploading Cluster File")
+    client.put(self.config['cluster_file'], "~/cluster.yaml", sudo=True)
 
 
 # def add_custom_salt(cluster_file):

@@ -23,8 +23,7 @@ if __name__ == "__main__":
         [console_scripts]
         dask_utils=dask_utils.cli.main:start
       """,
-      install_requires=["click", "dask_ec2", "voluptuous"],
-      dependency_links=["https://github.com/jeremyrcoyle/dask_utils.git@master#egg=dask_utils"]
+      install_requires=["click", "dask_ec2", "voluptuous"]
   )
   
   
