@@ -28,7 +28,7 @@ class ConfigCluster(object):
     self.dask_ec2_cluster = None
     
     if(os.path.exists(self.config['cluster_file'])):
-      self.dask_ec2_cluster=Cluster.from_filepath()
+      self.dask_ec2_cluster=Cluster.from_filepath(self.config['cluster_file'])
     
   @classmethod
   def from_config_file(cls, config_file):
