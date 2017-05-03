@@ -82,6 +82,7 @@ class ConfigCluster(object):
       print("Something may have gone wrong with the cluster start. Consider destroying the cluster and trying again")
   
     self.dask_ec2_cluster=Cluster.from_filepath(self.config['cluster_file'])
+    self.upload_cluster_yaml()
     
   def ssh(self):
     # for now let's be lazy and just call the dask-ec2 CLI  
