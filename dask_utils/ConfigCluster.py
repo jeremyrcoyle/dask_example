@@ -42,7 +42,7 @@ class ConfigCluster(object):
     try:
       if(len(parsed_config) > 1):
         raise Exception("Found multiple cluster definitions in one file, not currently supported")
-      cluster_name = parsed_config.keys()[0]    
+      cluster_name = list(parsed_config.keys())[0]    
       cluster_config = parsed_config[cluster_name]
     except:
       raise Exception("Invalid config file")
